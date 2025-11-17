@@ -2,15 +2,24 @@
   "name": "exemple_node_docker",
   "version": "1.0.0",
   "description": "",
+  "keywords": [],
+  "homepage": "https://github.com/Oscar-pp/exemple_node_docker#readme",
+  "bugs": {
+    "url": "https://github.com/Oscar-pp/exemple_node_docker/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Oscar-pp/exemple_node_docker.git"
+  },
+  "license": "ISC",
+  "author": "Oscar Plaza Portales",
+  "type": "commonjs",
   "main": "index.js",
   "scripts": {
     "start": "node --watch src/index.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "express": "^4.18.2",
-    "morgan": "^1.10.0"
+    "express": "^4.21.2",
+    "morgan": "^1.10.1"
   }
 }
